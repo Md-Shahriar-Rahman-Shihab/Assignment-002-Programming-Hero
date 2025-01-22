@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+}
+.logo img {
+  height: 3.5rem;
+}
+.logo h1 {
+  font-family: "Quicksand", serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  padding: 0 8rem 0 8rem;
+}
+.ul {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  justify-content: space-between;
+}
+.ul li {
+  width: 7rem;
+  list-style: none;
+}
+.contact {
+  background-color: rgba(254, 163, 1, 1);
+  color: white;
+  height: 3rem;
+  width: 12rem;
+  border: none;
+  border-radius: 10px;
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.section-1 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0 8rem 0 8rem;
+}
+.content {
+  /* border: 1px solid; */
+  width: 35rem;
+  height: 30rem;
+}
+.content h1 {
+  font-size: 300%;
+}
+.content p {
+  font-weight: 400;
+  padding: 0;
+}
+.enroll {
+  height: 3rem;
+  width: 12rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+}
+.img img {
+  width: 25rem;
+}
+.section-2 {
+  background-image: url(assets/bg.png);
+  padding: 0 8rem 0 8rem;
+}
+.card {
+  padding: 3rem;
+  width: 15rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.card img{
+  height: 8rem;
+  width: 8rem;
+}
+.card p{
+  margin: -15px;
+}
+.cards-h1 {
+  text-align: center;
+  font-size: 250%;
+  padding: 3rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  /* border: 1px solid; */
+  width: 8.5rem;
+  margin: auto;
+}
+.fa-solid {
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(254, 163, 1, 1);
+  color: white;
+  padding: 10px;
+}
+.our-stories {
+  text-align: center;
+  font-size: 250%;
+  padding: 3rem;
+}
+.horizontal {
+  width: 55rem;
+  background-color: white;
+  margin-right: 18.73px;
+  border-radius: 16px;
+
+}
+.horizontal h1, p{
+  padding: 0 2rem 0 2rem;
+}
+.horizontal img{
+  z-index: -1;
+}
+
+#date-1, #date-2, #date-3, #date-4{
+  background-color: rgba(60, 216, 232, 1);
+  border-radius: 20px;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  position: absolute;
+  margin-top: -1.5rem;
+  margin-left:2rem;
+  font-family: "Quicksand", serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  line-height: 28.8px;
+  font-size: 0.95rem;
+}
+.one h1{
+  margin-bottom: 2.5rem;
+  padding: 0 30px 0 30px;
+}
+.two h1{
+  margin-bottom: 2.5rem;
+  padding: 0 30px 0 30px;
+}
+.three h1{
+  margin-bottom: 2.5rem;
+  padding: 0 30px 0 30px;
+}
+.four h1{
+  margin-bottom: 2.5rem;
+  padding: 0 30px 0 30px;
+}
+.horizontal img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.gallery,
+.horizontal-2,
+.horizontal-2-2 {
+  display: flex;
+}
+.one,
+.two,
+.three,
+.four {
+  /* padding: 0 10px 0 10px; */
+  background-color: white;
+  margin: 10px;
+  border-radius: 16px;
+  width: 100%;
+}
+/* .one p h1 {
+  padding: 0 10px 0 10px;
+}
+.three {
+  width: 70%;
+} */
+
+.vertical img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.one,
+.two,
+.three,
+.four h1 {
+  font-size: small;
+}
+.four h1{
+  font-size: large !important;
+}
+.view-all {
+  height: 3rem;
+  width: 12rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  margin-bottom: 2rem;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: 
+  linear-gradient(to top, rgba(254, 161, 1, 0.363), rgba(255, 255, 255, 0.226)),
+  url(assets/bg.png);
+  padding: 0 8rem 0 8rem;
+}
+.gallery {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+footer{
+  background-color: rgba(1, 172, 253, 1);
+  color: white;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+}
+.left-content{
+  display: flex;
+  align-items: center;
+}
+.left{
+width: 30%;
+
+}
+.left p{
+  font-weight: 300;
+  padding-left: 8px;
+}
+.left-content img{
+  height: 100%;
+}
+.footer{
+  padding: 0 7rem 0 8rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.middle ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 11rem;
+  list-style: none;
+  font-weight: 400;
+}
+.right h1{
+  margin-top: 10px;
+}
+.date-2, .date-3{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+}
+.date-4{
+  font-size: smaller;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+}
+.date-1{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(60, 216, 232, 1);
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+}
+.hamburger-menu{
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  nav{
+    height: 6rem;
+    padding: 10px;
+    border: 1px solid orange;
+  }
+  .section-1, .section-2{
+    padding: 0;
+  }
+  .logo h1{
+    display: none;
+  }
+  .section-1, .section-2{
+    width: 100%;
+  }
+  .ul, .contact{
+    display: none;
+  }
+  #submenu li{
+    display: none;
+    list-style: none;
+  }
+  .hamburger-menu, #hamburger{
+    display: block;
+    width: 25px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+  }
+  .section-1 .content {
+    order: 2; 
+    text-align: center; /
+  }
+  .section-1{
+    flex-direction: column;
+  }
+  .content{
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 200%;
+  }
+  .cards-h1{
+    text-align: center;
+    font-size: 200%;
+    padding: 2rem;
+    justify-content: center;
+  }
+  .cards{
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin: auto;
+  }
+  .card{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .arrows{
+    display: none;
+  }
+  .our-stories{
+    font-size: 200%;
+    width: 150%;
+  }
+  .horizontal{
+    display: none;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 11rem;
+  }
+  .gallery{
+    margin-left: -16rem;
+  }
+  .footer{
+    flex-direction: column;
+    margin-top: -1rem;
+    width: 9.7rem;
+  }
+  .left{
+    width: 20rem;
+    margin-left: -7rem;
+  }
+  .left p{
+    margin-left: -1rem;
+    padding-left: 32px;
+  }
+  footer{
+    height: 40rem;
+  }
+  .middle ul{
+    width: 20rem;
+    margin-left: -7rem;
+  }
+  .middle ul li{
+    margin-left: -1.5rem;
+  }
+  .right{
+    margin-left: -6rem;
+  }
+  #date-1, #date-2, #date-3, #date-4{
+    background-color: rgba(60, 216, 232, 1);
+    border-radius: 20px;
+    padding: 0.2rem 0.7rem 0.2rem 0.7rem;
+    position: absolute;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    font-family: "Quicksand", serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 28.8px;
+    font-size: 0.8rem;
+  }
+  marquee 
+  {width:92%}
+}
